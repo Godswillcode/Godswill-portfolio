@@ -1,6 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/*************  NAVBAR *****************/
+nav {
+  width: 100%;
+  position: fixed !important;
+  top: 0;
+}
+
+nav .navbar-brand {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+
+/*------- MENU LINKS ------------*/
+nav a.nav-link {
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+.navbar li a {
+  color: #fff !important;
+  text-transform: uppercase;
+  margin: 0 12px;
+  font-weight: 500;
+}
+
+.navbar li a:hover, .navbar li .active {
+  color: #ffbd39 !important;
+}
+
+@media(max-width: 992px){
+  .navbar li a {
+    text-align: center;
+  }
+}
+
+
+/*************  HEADER *****************/
+.header-wrapper {
+  background: url(images/header.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  margin-top: 4.4em;
+}
+
+ .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  height: 90vh;
+  width: 100%;
+}
+
+.main-info {
+  text-align: center !important;
+}
+
+.main-info h1 {
+  color: orange;
+  text-transform: uppercase;
+}
+
+@media(max-width: 768px){
+  .main-info h1 {
+    font-size: 30px;
+  }
+}
+
+/* ---------- TYPED TEXT--------------- */
+.typed-test {
+  color: white;
+  font-size: 30px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.btn-main-info {
+  border: 1px solid #ef4035;
+  text-transform: uppercase;
+  padding: 10px 12px;
+  border-radius: 0;
+  color: #fff;
 }
