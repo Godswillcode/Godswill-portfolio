@@ -3,13 +3,13 @@ import Typed from 'react-typed';
 
 const Header = () => {
     return (
-        <div className="header-wrapper">
+        <div className="header-wrapper" id="header">
             <div className="overlay d-flex justify-content-center align-items-center">
-           <div className="main-info">
-               <h1>Website development</h1>
+           <div className="main-info container">
+               <h1> I am Omenuko Godswill</h1>
                <Typed 
                className="typed-test"
-               strings={['Website development', 'Web Design', 'Graphics Design' ]}
+               strings={['Web developer', 'Web Designer', 'Website Maintenance' ]}
                typeSpeed={50}
                 backSpeed={60}
                loop

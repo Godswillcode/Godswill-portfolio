@@ -1,30 +1,66 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-
-body {
-  font-family: 'Roboto Condensed', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+a,
+a:hover {
+  text-decoration: none !important;
 }
 
-/*************  NAVBAR *****************/
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+
+/************* SECTION TITLE *****************/
+.sec-title-wrap {
+  padding: 40px 0 25px 0;
+  margin-bottom: 50px;
+}
+
+.sec-title-wrap h2 {
+   color: #fff;
+   font-size: 33px;
+   font-weight: 500;
+}
+
+.sec-title-wrap .underline {
+  width: 65px;
+  height: 4px;
+  background: #ff4a57;
+}
+
+
+/************* NAVBAR *****************/
 nav {
   width: 100%;
   position: fixed !important;
   top: 0;
+  z-index: 5;
+  background: #1f2235;
 }
 
 nav .navbar-brand {
-  font-size: 30px;
+  font-size: 31px;
   font-weight: 500;
 }
 
+nav .navbar-brand:hover {
+  color: #ff4a57 !important;
+}
 
-/*------- MENU LINKS ------------*/
+.navbar-toggler {
+  border-color: white !important;
+}
+
+/*------- Menu Links ------------*/
 nav a.nav-link {
   letter-spacing: 0.0375rem;
   cursor: pointer;
@@ -35,62 +71,198 @@ nav a.nav-link {
   text-transform: uppercase;
   margin: 0 12px;
   font-weight: 500;
+  padding: 10px 0 0 0;
 }
 
-.navbar li a:hover, .navbar li .active {
-  color: #ffbd39 !important;
+ul li a::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  display: block;
+  background-color: #ff4a57;
+  margin-top: 7px;
+  transition: all 0.3s;
+}
+ul li a:hover::after,
+ul li a.active::after {
+  width: 100%;
+  transition: all 0.3s;
 }
 
-@media(max-width: 992px){
+@media (max-width: 992px) {
   .navbar li a {
     text-align: center;
   }
-}
 
+  ul li a::after {
+    display: none;
+  }
+
+  ul li a:hover,
+  ul li a.active {
+    color: #ff4a57 !important;
+  }
+}
 
 /*************  HEADER *****************/
 .header-wrapper {
-  background: url(images/header.jpg) no-repeat;
+  background: url(images/hero.jpg) no-repeat;
   background-position: center center;
   background-size: cover;
   height: 90vh;
   width: 100%;
   margin-top: 4.4em;
+  background-attachment: fixed;
 }
 
- .overlay {
-  background: rgba(0, 0, 0, 0.5);
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
   height: 90vh;
   width: 100%;
 }
 
 .main-info {
   text-align: center !important;
+  z-index: 3;
 }
 
 .main-info h1 {
-  color: orange;
-  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 60px;
 }
 
-@media(max-width: 768px){
+@media (max-width: 768px) {
   .main-info h1 {
-    font-size: 30px;
+    font-size: 3rem;
   }
 }
 
-/* ---------- TYPED TEXT--------------- */
+@media (max-width: 500px) {
+  .main-info h1 {
+    font-size: 2rem;
+  }
+}
+
+/* ---------- Typed text--------------- */
 .typed-test {
   color: white;
-  font-size: 30px;
+  font-size: 32px;
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .btn-main-info {
+  background: #ef4035;
   border: 1px solid #ef4035;
   text-transform: uppercase;
   padding: 10px 12px;
   border-radius: 0;
   color: #fff;
 }
+
+.btn-main-info:hover {
+  transition: 0.2s ease-in-out;
+  color: #fff !important;
+  background: none;
+}
+
+@media(max-width: 500px){
+  .typed-test {
+    font-size: 25px;
+  }
+}
+
+/* ---------- Particles Js--------------- */
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 85vh !important;
+  width: 100vw;
+  z-index: 1;
+}
+
+@media (max-width: 600px) {
+  .particle {
+    display: none;
+  }
+}
+
+
+/*************  ABOUT ME *****************/
+.about {
+  background: #23263a;
+  padding-bottom: 50px;
+}
+
+.about-info h3 {
+  font-size: 23px;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+.about-img img {
+  padding-right: 20px;
+}
+
+.about-contact {
+  margin-bottom: 30px;
+}
+
+.about-contact:last-child{
+  margin-bottom: 0;
+}
+
+.about-contact h4 {
+  color: #ff4a57;
+  font-size: 19px;
+}
+
+.about-contact span, .about-contact a {
+  color: #fff;
+  font-size: 17px;
+}
+
+@media(max-width: 768px){
+  .about-img img {
+    padding-right: 0;
+  }
+}
+
+
+/*************  SERVICES *****************/
+.service {
+  background:  #1f2235;
+  color: #fff;
+  padding-bottom: 3rem;
+
+  margin-bottom: 100px;
+}
+
+.service-box {
+  padding: 2.5rem 1.3rem;
+  margin-bottom: 3rem;
+  border: 1px solid #ff4a57;
+ 
+}
+
+.service-box:hover {
+  background: #ff4a57;
+  cursor: pointer;
+}
+
+
+.service-box .ico-circle i {
+   font-size: 40px;
+   padding-bottom: 15px;
+}
+
+
+.service-box .s-title {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  text-align: center;
+  padding: .4rem 0;
+}
+
+
