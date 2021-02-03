@@ -14,7 +14,7 @@ const Header = () => {
                 backSpeed={60}
                loop
                />
-               <a href="#!" className="btn-main-info">Contact Me</a>
+               <a href="https://drive.google.com/file/d/1Ld3wMfD0nHwRJNZsAbdqzBI29yC8QS2m/view?usp=sharing" className="btn-main-info" target="blank"  rel="noopener noreferrer"><i className="fas fa-download"></i> Download Resume</a>
             </div> 
         </div>
         </div>

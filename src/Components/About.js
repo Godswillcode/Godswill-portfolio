@@ -14,7 +14,7 @@ const About = () => {
                <div className="row">
                    <div className="col-lg-6 mb-4">
                       <div className="about-img">
-                          <img src="images/3.jpg" alt="about" className="img-fluid"/>
+                          <img src="images/about.jpg" alt="about" className="img-fluid"/>
                       </div>
                    </div>
                    <div className="col-lg-6">
@@ -24,17 +24,22 @@ const About = () => {
                            <p>My approach is simple and iterative. I develop and design interactive strategies and experiences to help thrive your business.</p>
                        </div>
                        <div className="row mt-5">
-                           <div className="col-lg-6 mb-3">
+                           <div className="col-lg-6 col-sm-6 mb-3">
                                 <div className="about-contact">
                                 <h4>Name:</h4>
                                 <span>Omenuko Godswill</span>
                                 </div>
                                 <div className="about-contact">
                                 <h4>Phone:</h4>
-                                <span><a href="tel: 09038968345">09038968345</a></span>
+                                <span><a href="tel: +234 903 896 8345">+234 903 896 8345</a></span>
+                                </div>
+
+                                <div className="about-contact">
+                                <h4>Github:</h4>
+                                <span><a href="https://github.com/Godswillcode" target="blank" rel="noopener noreferre">Link to my github</a></span>
                                 </div>
                            </div>
-                           <div className="col-lg-6">
+                           <div className="col-lg-6 col-sm-6">
                            <div className="about-contact">
                                 <h4>Profile:</h4>
                                 <span>Front end developer</span>
@@ -42,6 +47,16 @@ const About = () => {
                                 <div className="about-contact">
                                 <h4>Email:</h4>
                                 <span><a href="mailto: omenukoonyekachi690@gmail.com">omenukoonyekachi690@gmail.com</a></span>
+                                </div>
+
+                                <div className="about-contact">
+                                <h4>Linkedin:</h4>
+                                <span> <a
+                    href="https://www.linkedin.com/in/onyekachi-godswill-b78a631bb/"
+                    rel="noopener noreferrer"
+                    target="blank"
+                    className="text-white"
+                  >onyekachi godswill</a></span>
                                 </div>
                                </div>
                        </div>
