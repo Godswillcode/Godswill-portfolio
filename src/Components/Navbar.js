@@ -32,41 +32,42 @@ const Navbar = () => {
             className={click ? "navbar-collapse collapse" : "navbar-collapse"}
           >
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item" onClick={closeMenu}>
+              <li className="nav-item">
                 <Link
                   className="nav-link"
                   activeClass="active"
                   to="header"
                   spy={true}
                   offset={-80}
+                  onClick={closeMenu}
                 >
                   Home <span className="sr-only">(current)</span>
                 </Link>
               </li>
-              <li className="nav-item" onClick={closeMenu}>
-                <Link className="nav-link" to="about" spy={true} offset={-80}>
+              <li className="nav-item">
+                <Link className="nav-link" to="about" spy={true} offset={-80} onClick={closeMenu}>
                   About Me
                 </Link>
               </li>
-              <li className="nav-item" onClick={closeMenu}>
-                <Link className="nav-link" to="service" spy={true} offset={-80}>
+              <li className="nav-item">
+                <Link className="nav-link" to="service" spy={true} offset={-80} onClick={closeMenu}>
                   Services
                 </Link>
               </li>
-              <li className="nav-item" onClick={closeMenu}>
-                <Link className="nav-link" to="project" spy={true} offset={-80}>
+              <li className="nav-item">
+                <Link className="nav-link" to="project" spy={true} offset={-80} onClick={closeMenu}>
                   Projects
                 </Link>
               </li>
-              <li className="nav-item" onClick={closeMenu}>
-                <Link className="nav-link" to="skill" spy={true} offset={-80}>
+              <li className="nav-item">
+                <Link className="nav-link" to="skill" spy={true} offset={-80} onClick={closeMenu}>
                   Skills
                 </Link>
               </li>
-              <li className="nav-item" onClick={closeMenu}>
-                <a className="nav-link" href="mailto: omenukoonyekachi690@gmail.com">
+              <li className="nav-item">
+                <a className="nav-link" href="mailto: omenukoonyekachi690@gmail.com" onClick={closeMenu}>
                   Contact
-                </a>
+                </a> 
               </li>
             </ul>
           </div>

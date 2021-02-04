@@ -16,7 +16,7 @@ export const projects = [
     desc:
       "A real estate progressive web App were you can view all there properties and also create account with them and login.",
     siteLink: "https://luxury-real-estate.netlify.app/",
-    technology: "React",
+    technology: "React, react bootstrap, react router and yup",
   },
 
   {
@@ -26,7 +26,7 @@ export const projects = [
     desc:
       "A website you can see products, add to cart, checkout and make payment with flutter wave payment gateway.",
     siteLink: "https://godswillcode.github.io/Shopping-cart-Task/",
-    technology: "React",
+    technologies: "React and  Axios",
   },
 
   {

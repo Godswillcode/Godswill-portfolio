@@ -15,7 +15,7 @@ const Header = () => {
             loop
           />
           <a
-            href="https://drive.google.com/file/d/1Ld3wMfD0nHwRJNZsAbdqzBI29yC8QS2m/view?usp=sharing"
+            href="https://drive.google.com/file/d/1_Tkp7npV2LUX5Q8olgNTq40tJbZbJBMv/view?usp=sharing"
             className="btn-main-info"
             target="blank"
             rel="noopener noreferrer"
