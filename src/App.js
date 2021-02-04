@@ -7,7 +7,6 @@ import About from "./Components/About";
 import Services from "./Components/Services";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
-import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 
 function App() {
@@ -37,12 +36,11 @@ function App() {
       {/* Components */}
       <Navbar />
       <Header />
-      <About/>
-      <Services/>
-      <Projects/>
-      <Skills/>
-      <Contact/>
-      <Footer/>
+      <About />
+      <Services />
+      <Projects />
+      <Skills />
+      <Footer />
       {/* <div style={{marginBottom: 50}}></div> */}
     </>
   );

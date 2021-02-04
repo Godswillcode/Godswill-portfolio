@@ -11,11 +11,10 @@ a:hover {
 
 html {
   scroll-behavior: smooth;
-  /* scroll-padding-top: 300px; */
 }
 
 body {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Heebo", sans-serif;
 }
 
 /************* SECTION TITLE *****************/
@@ -264,7 +263,6 @@ ul li .nav-link.active::after {
   padding-bottom: 37px;
 }
 
-
 .project-box {
   position: relative;
   min-width: 300px;
@@ -278,7 +276,6 @@ ul li .nav-link.active::after {
   left: 0;
   width: 100%;
   height: 100%;
-
 }
 
 .project-box .project-imgBx img {
@@ -306,7 +303,7 @@ ul li .nav-link.active::after {
   overflow: hidden;
   padding: 15px;
   box-sizing: border-box;
-border: 3px solid #ff4a57;
+  border: 3px solid #ff4a57;
 }
 
 .project-box:hover .project-content {
@@ -322,7 +319,6 @@ border: 3px solid #ff4a57;
   font-size: 20px;
   text-transform: uppercase;
   font-weight: 500;
-
 }
 
 .project-box .project-content h3 {
@@ -356,14 +352,13 @@ border: 3px solid #ff4a57;
   border-radius: 0;
   color: #fff;
   font-size: 20px;
-} 
+}
 
-.project-box .project-content .project-btn:hover{
+.project-box .project-content .project-btn:hover {
   transition: 0.2s ease-in-out;
   color: #ff4a57 !important;
   background: none;
 }
-
 
 /************* SKILLS *****************/
 .skills {
@@ -402,76 +397,6 @@ border: 3px solid #ff4a57;
   width: 100%;
 }
 
-/************* CONTACT *****************/
-.contact {
-  background: #23263a;
-  padding-bottom: 40px;
-}
-
-.contact .info {
-  width: 100%;
-}
-
-.contact .info i {
-  font-size: 32px;
-  color: #fff;
-  float: left;
-  line-height: 1;
-}
-
-.contact .info h4 {
-  padding: 0 0 0 60px;
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #ff4a57;
-}
-
-.contact .info p {
-  padding: 0 0 0 60px;
-  margin-bottom: 0;
-  font-size: 15px;
-  color: #fff;
-}
-
-.contact .info .email,
-.contact .info .phone,
-.contact .info .linkedin {
-  margin-top: 35px;
-}
-
-.contact ::placeholder {
-  font-weight: 500;
-  font-size: 17px;
-}
-.contact input {
-  height: 44px;
-}
-
-.contact input:focus {
-  border: none;
-}
-
-.contact input:focus, textarea:focus {
-  border: 2px solid #ef4035 !important;
-}
-
-.contact textarea {
-  resize: none !important;
-}
-
-.contact button[type="submit"] {
-  background: #ef4035;
-  border: 0;
-  padding: 10px 30px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.contact button[type="submit"]:hover {
-  background: #ff4a57;
-}
 
 
 /************* FOOTER *****************/
