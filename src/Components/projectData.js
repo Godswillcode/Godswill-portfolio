@@ -26,7 +26,7 @@ export const projects = [
     desc:
       "A website you can see products, add to cart, checkout and make payment with flutter wave payment gateway.",
     siteLink: "https://godswillcode.github.io/Shopping-cart-Task/",
-    technology: "React and  Axios",
+  technology: "React, Axios and fluter wave",
   },
 
   {
@@ -34,7 +34,7 @@ export const projects = [
     title: "Foan Realties",
     image: "/images/project/4.jpg",
     desc:
-      "A real estate web App were you can view all there properties and also create account with them and login.",
+      "A real estate web App where you can view all there properties and also create account with them and login.",
     siteLink: "https://foan-realties.netlify.app/",
     technology: "HTML, CSS, Bootstrap, Javascript and Jquery",
   },
