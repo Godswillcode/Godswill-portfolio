@@ -57,8 +57,7 @@ function Services() {
                 <h2 className="s-title">Website maintenance</h2>
                 <p className="s-description text-center">
                   Properly maintaining your site helps to ensure site security,
-                  increase the number of visitors, boost returning traffic, and
-                  more.
+                  increase the number of visitors, boost returning traffic.
                 </p>
               </div>
             </div>
