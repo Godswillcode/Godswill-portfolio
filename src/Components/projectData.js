@@ -2,7 +2,7 @@ export const projects = [
   {
     id: 1,
     title: "Casa Hotel",
-    image: "/images/project/1.jpg",
+    image: "/images/project/casa.jpg",
     desc:
       "A hotel website where you have access to view all their rooms and also make reservation online.",
     siteLink: "https://godswillcode.github.io/Casa-hotel/",
@@ -12,7 +12,7 @@ export const projects = [
   {
     id: 2,
     title: "Luxury Real Estate",
-    image: "/images/project/2.jpg",
+    image: "/images/project/luxury.jpg",
     desc:
       "A real estate progressive web App where you can view all there properties and also create account with them and login.",
     siteLink: "https://luxury-real-estate.netlify.app/",
@@ -22,20 +22,22 @@ export const projects = [
   {
     id: 3,
     title: "Shopping Cart",
-    image: "/images/project/3.jpg",
+    image: "/images/project/getit.jpg",
     desc:
-      "A website you can see products, add to cart, checkout and make payment with flutter wave payment gateway.",
+      "An e-commerce platform where you will see products, add to cart, checkout and make payment with payStack payment gateway.",
     siteLink: "https://godswillcode.github.io/Shopping-cart-Task/",
-  technology: "React, Axios and fluter wave",
+  technology: "React, Axios and payStack",
   },
 
   {
     id: 4,
     title: "Foan Realties",
-    image: "/images/project/4.jpg",
+    image: "/images/project/foan.jpg",
     desc:
       "A real estate web App where you can view all there properties and also create account with them and login.",
     siteLink: "https://foan-realties.netlify.app/",
     technology: "HTML, CSS, Bootstrap, Javascript and Jquery",
   },
+
+  
 ];

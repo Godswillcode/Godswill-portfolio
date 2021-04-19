@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 a,
@@ -13,9 +14,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  font-family: "Heebo", sans-serif;
-}
 
 /************* SECTION TITLE *****************/
 .sec-title-wrap {
@@ -265,28 +263,38 @@ ul li .nav-link.active::after {
   padding-bottom: 37px;
 }
 
+
+
+@media(max-width: px) {
+  .project-row {
+    margin-left: 40px !important;
+  }
+}
+
+ 
 .project-box {
   position: relative;
-  min-width: 300px;
-  height: 500px;
-  background: #000;
+  width: 250px;
+  height: 350px;
+  background: #fff;
+  border-radius: 10px;
 }
 
 .project-box .project-imgBx {
   position: absolute;
   top: 0;
-  left: 0;
   width: 100%;
-  height: 75%;
+  height: 80%;
+  border-radius: 10px;
 }
 
 .project-box .project-imgBx img {
   position: absolute;
   top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   transition: 0.5s;
+  border-radius: 10px 10px 0 0;
 }
 
 .project-box:hover .project-imgBx img {
@@ -296,39 +304,36 @@ ul li .nav-link.active::after {
 .project-box .project-content {
   position: absolute;
   bottom: 20px;
-  left: 10%;
-  width: 80%;
-  height: 60px;
+  height: 40px;
   background: #fff;
   transition: 0.5s;
   overflow: hidden;
   padding: 15px;
   box-sizing: border-box;
-  border: 3px solid #ff4a57;
+  border-radius: 10px;
 }
 
 .project-box:hover .project-content {
   width: 100%;
   height: 100%;
-  left: 0;
   bottom: 0;
 }
 
 .project-box .project-content h2 {
   margin: 0;
   padding: 0;
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 500;
 }
 
 .project-box .project-content h3 {
   padding-top: 20px;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .project-box .project-content span {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .project-box .project-content p {
@@ -337,7 +342,6 @@ ul li .nav-link.active::after {
   opacity: 0;
   line-height: 1.2em;
   transition: 0.5s;
-  text-align: justify;
   padding-top: 10px;
 }
 
@@ -359,7 +363,7 @@ ul li .nav-link.active::after {
   transition: 0.2s ease-in-out;
   color: #ff4a57 !important;
   background: none;
-}
+} 
 
 /************* SKILLS *****************/
 .skills {

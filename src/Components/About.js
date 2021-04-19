@@ -22,7 +22,7 @@ const About = () => {
               <h3>Hi there</h3>
               <p>
                 I am a Web developer and designer based in Lagos, who loves
-                clean, simple & unique design. and I also enjoy crafting and
+                clean, simple {"&"} unique design. and I also enjoy crafting and
                 coding.
               </p>
               <p>
@@ -52,7 +52,7 @@ const About = () => {
                       target="blank"
                       rel="noopener noreferre"
                     >
-                      Link to my github
+                      github.com/Godswillcode
                     </a>
                   </span>
                 </div>
