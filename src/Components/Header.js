@@ -6,7 +6,7 @@ const Header = () => {
     <div className="header-wrapper" id="header">
       <div className="overlay d-flex justify-content-center align-items-center">
         <div className="main-info container">
-          <h1> I am Omenuko Godswill</h1>
+          <h1> I am Godswill Omenuko </h1>
           <Typed
             className="typed-test"
             strings={["Web developer", "Web Designer", "Website Maintainer"]}
