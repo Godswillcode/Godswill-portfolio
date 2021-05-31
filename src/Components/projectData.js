@@ -31,12 +31,12 @@ export const projects = [
 
   {
     id: 4,
-    title: "Foan Realties",
-    image: "/images/project/foan.jpg",
+    title: "Airmart Realtors",
+    image: "/images/project/airmat.jpg",
     desc:
       "A real estate web App where you can view all there properties and also create account with them and login.",
-    siteLink: "https://foan-realties.netlify.app/",
-    technology: "HTML, CSS, Bootstrap, Javascript and Jquery",
+    siteLink: "https://aimartrealtors.com/",
+    technology: "React, Redux and Tailwind",
   },
 
   
