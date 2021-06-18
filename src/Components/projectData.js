@@ -25,7 +25,7 @@ export const projects = [
     image: "/images/project/getit.jpg",
     desc:
       "An e-commerce platform where you will see products, add to cart, checkout and make payment with payStack payment gateway.",
-    siteLink: "https://godswillcode.github.io/Shopping-cart-Task/",
+    siteLink: "https://get-it-now.netlify.app/",
   technology: "React, Axios and payStack",
   },
 

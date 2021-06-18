@@ -83,7 +83,7 @@ const Skills = () => {
           </div>
           <div className="col-md-3 col-6 animate-box">
             <div className="progress-wrap ftco-animate">
-              <h3>Jquery</h3>
+              <h3>React</h3>
               <div className="progress">
                 <div
                   className="progress-bar color-4"
@@ -97,7 +97,7 @@ const Skills = () => {
           </div>
           <div className="col-md-3 col-6 animate-box">
             <div className="progress-wrap ftco-animate">
-              <h3>React</h3>
+              <h3>Context API</h3>
               <div className="progress">
                 <div
                   className="progress-bar color-5"
