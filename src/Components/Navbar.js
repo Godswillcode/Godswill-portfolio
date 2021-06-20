@@ -65,9 +65,9 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="mailto: omenukoonyekachi690@gmail.com" onClick={closeMenu}>
+              <Link className="nav-link" to="about" spy={true} offset={-80} onClick={closeMenu}>
                   Contact
-                </a> 
+                </Link>
               </li>
             </ul>
           </div>

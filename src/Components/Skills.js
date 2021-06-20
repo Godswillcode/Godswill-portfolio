@@ -41,7 +41,7 @@ const Skills = () => {
           </div>
           <div className="col-md-3 col-6 animate-box">
             <div className="progress-wrap ftco-animate">
-              <h3>Bootstrap</h3>
+              <h3>Javascript</h3>
               <div className="progress">
                 <div
                   className="progress-bar color-3"
@@ -69,7 +69,7 @@ const Skills = () => {
           </div>
           <div className="col-md-3 col-6 animate-box">
             <div className="progress-wrap ftco-animate">
-              <h3>Javascript</h3>
+              <h3>Bootstrap</h3>
               <div className="progress">
                 <div
                   className="progress-bar color-3"
