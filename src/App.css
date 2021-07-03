@@ -383,7 +383,7 @@ ul li .nav-link.active::after {
 }
 
 .progress {
-  height: 3px;
+  height: 7px !important;
   -webkit-box-shadow: none;
   box-shadow: none;
   overflow: visible;
