@@ -60,13 +60,13 @@ const About = () => {
               <div className="col-lg-6 col-sm-6">
                 <div className="about-contact">
                   <h4>Profile:</h4>
-                  <span>Front end developer</span>
+                  <span>Mern Stack developer</span>
                 </div>
                 <div className="about-contact">
                   <h4>Email:</h4>
                   <span>
-                    <a href="mailto: omenukoonyekachi690@gmail.com">
-                      omenukoonyekachi690@gmail.com
+                    <a href="mailto:amgodswill1@gmail.com">
+                      amgodswill1gmail.com
                     </a>
                   </span>
                 </div>
