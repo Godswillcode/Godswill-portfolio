@@ -35,7 +35,7 @@ const About = () => {
               <div className="col-lg-6 col-sm-6 mb-3">
                 <div className="about-contact">
                   <h4>Name:</h4>
-                  <span>Omenuko Godswill</span>
+                  <span>Godswill Omenuko</span>
                 </div>
                 <div className="about-contact">
                   <h4>Phone:</h4>

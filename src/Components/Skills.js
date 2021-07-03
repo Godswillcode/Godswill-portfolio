@@ -111,6 +111,66 @@ const Skills = () => {
           </div>
           <div className="col-md-3 col-6 animate-box">
             <div className="progress-wrap ftco-animate">
+              <h3>Redux</h3>
+              <div className="progress">
+                <div
+                  className="progress-bar color-6"
+                  role="progressbar"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-3 col-6 animate-box">
+            <div className="progress-wrap ftco-animate">
+              <h3>Express</h3>
+              <div className="progress">
+                <div
+                  className="progress-bar color-6"
+                  role="progressbar"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-3 col-6 animate-box">
+            <div className="progress-wrap ftco-animate">
+              <h3>Node js</h3>
+              <div className="progress">
+                <div
+                  className="progress-bar color-6"
+                  role="progressbar"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-3 col-6 animate-box">
+            <div className="progress-wrap ftco-animate">
+              <h3>Mongo DB</h3>
+              <div className="progress">
+                <div
+                  className="progress-bar color-6"
+                  role="progressbar"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-3 col-6 animate-box">
+            <div className="progress-wrap ftco-animate">
               <h3>SEO</h3>
               <div className="progress">
                 <div
