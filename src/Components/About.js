@@ -66,7 +66,7 @@ const About = () => {
                   <h4>Email:</h4>
                   <span>
                     <a href="mailto:amgodswill1@gmail.com">
-                      amgodswill1gmail.com
+                      amgodswill1@gmail.com
                     </a>
                   </span>
                 </div>
