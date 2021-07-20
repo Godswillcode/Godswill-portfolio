@@ -378,7 +378,7 @@ ul li .nav-link.active::after {
   background: none;
 }
 
-.p-link a{
+.p-link a {
   color: #fff !important;
   border: 1px solid #ef4035;
   padding: 7px 14px;
@@ -391,13 +391,13 @@ ul li .nav-link.active::after {
   background: #ef4035;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .p-link a {
     margin-right: 5rem;
   }
 }
 
-@media(max-width: 500px) {
+@media (max-width: 500px) {
   .p-link a {
     margin-right: 3rem;
   }
