@@ -13,6 +13,9 @@ const Projects = () => {
             <div className="underline"></div>
           </div>
         </div>
+                     <div className="text-right">
+                       <a href="#!"><span>View all</span> </a>
+                     </div>
 
              <div className="d-flex justify-content-center flex-wrap">
              {
