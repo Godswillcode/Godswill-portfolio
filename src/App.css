@@ -379,12 +379,16 @@ ul li .nav-link.active::after {
 }
 
 .p-link a{
-  color: #fff;
+  color: #fff !important;
   border: 1px solid #ef4035;
   padding: 7px 14px;
   border-radius: 20px;
   font-size: 17px;
   margin-right: 14px;
+}
+
+.p-link a:hover {
+  background: #ef4035;
 }
 
 @media(max-width: 768px) {
