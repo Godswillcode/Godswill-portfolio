@@ -381,8 +381,22 @@ ul li .nav-link.active::after {
 .p-link a{
   color: #fff;
   border: 1px solid #ef4035;
-  padding: 5px 10px;
-  border-radius: 10px;
+  padding: 7px 14px;
+  border-radius: 20px;
+  font-size: 17px;
+  margin-right: 14px;
+}
+
+@media(max-width: 768px) {
+  .p-link a {
+    margin-right: 5rem;
+  }
+}
+
+@media(max-width: 500px) {
+  .p-link a {
+    margin-right: 3rem;
+  }
 }
 
 /************* SKILLS *****************/
