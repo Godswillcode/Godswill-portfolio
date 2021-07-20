@@ -378,6 +378,13 @@ ul li .nav-link.active::after {
   background: none;
 }
 
+.p-link a{
+  color: #fff;
+  border: 1px solid #ef4035;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
 /************* SKILLS *****************/
 .skills {
   background: #1f2235;
