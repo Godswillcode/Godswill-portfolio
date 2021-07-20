@@ -16,7 +16,7 @@ html {
 
 /************* BACK TO TOP *****************/
 .scroll-to-top {
-  bottom: 13px;
+  bottom: 7rem;
   right: 0;
   width: 40px;
   height: 40px;
@@ -27,6 +27,7 @@ html {
   display: flex;
   justify-content: center;
   position: fixed;
+  font-size: 2rem;
 }
 
 .scroll-to-top .icon2 {

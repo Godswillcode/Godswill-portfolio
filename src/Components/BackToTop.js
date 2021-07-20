@@ -20,7 +20,7 @@ const BackToTop = () => {
   }
   return (
     <div
-      className="scroll-to-top mr-5 text-xl"
+      className="scroll-to-top mr-4"
       onClick={scroll}
     >
       <svg
