@@ -24,6 +24,9 @@ html {
   background: #ef4035;
   color: #fff;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  position: fixed;
 }
 
 .scroll-to-top .icon2 {
