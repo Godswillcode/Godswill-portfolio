@@ -22,30 +22,14 @@ html {
   height: 47px;
   z-index: 200;
   background: #ef4035;
-  color: #fff;
   cursor: pointer;
   display: flex;
   justify-content: center;
+  align-items: center;
   position: fixed;
   font-size: 2rem;
   border-radius: 50%;
 }
-
-.call .icon2 {
-  margin-top: 10px;
-  color: wheat !important;
-  animation: scrollTop 0.5s alternate ease infinite;
-}
-
-@keyframes scrollTop {
-  from {
-    transform: translateY(2px);
-  }
-  to {
-    transform: translateY(-1px);
-  }
-}
-
 
 /************* SECTION TITLE *****************/
 .sec-title-wrap {
@@ -208,7 +192,6 @@ ul li .nav-link.active::after {
   z-index: 0;
 }
 
-
 /*************  ABOUT ME *****************/
 .about {
   background: #23263a;
@@ -249,7 +232,6 @@ ul li .nav-link.active::after {
 @media (max-width: 768px) {
   .about-img img {
     padding-right: 0;
-    
   }
 }
 
@@ -295,15 +277,12 @@ ul li .nav-link.active::after {
   padding-bottom: 37px;
 }
 
-
-
-@media(max-width: px) {
+@media (max-width: px) {
   .project-row {
     margin-left: 40px !important;
   }
 }
 
- 
 .project-box {
   position: relative;
   width: 250px;
@@ -395,7 +374,7 @@ ul li .nav-link.active::after {
   transition: 0.2s ease-in-out;
   color: #ff4a57 !important;
   background: none;
-} 
+}
 
 /************* SKILLS *****************/
 .skills {
@@ -433,8 +412,6 @@ ul li .nav-link.active::after {
   border-radius: 2px;
   width: 100%;
 }
-
-
 
 /************* FOOTER *****************/
 .footer {
