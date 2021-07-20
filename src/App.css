@@ -14,6 +14,30 @@ html {
   scroll-behavior: smooth;
 }
 
+/************* BACK TO TOP *****************/
+.scroll-to-top {
+  bottom: 13px;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  z-index: 200;
+}
+
+.scroll-to-top .icon2 {
+  margin-top: 10px;
+  color: wheat !important;
+  animation: scrollTop 0.5s alternate ease infinite;
+}
+
+@keyframes scrollTop {
+  from {
+    transform: translateY(2px);
+  }
+  to {
+    transform: translateY(-1px);
+  }
+}
+
 
 /************* SECTION TITLE *****************/
 .sec-title-wrap {
