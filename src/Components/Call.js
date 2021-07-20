@@ -1,6 +1,6 @@
 const BackToTop = () => {
   return (
-    <a href="tel: +234 9038968345" className="call ml-3">
+    <a href="tel: +234 9038968345" className="call">
       <svg
         className="icon2"
         xmlns="http://www.w3.org/2000/svg"

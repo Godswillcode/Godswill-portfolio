@@ -18,8 +18,8 @@ html {
 .call {
   bottom: 2rem;
   left: 0;
-  width: 49px;
-  height: 49px;
+  width: 50px;
+  height: 50px;
   z-index: 200;
   background: #ef4035;
   cursor: pointer;
@@ -28,6 +28,7 @@ html {
   align-items: center;
   position: fixed;
   border-radius: 50%;
+  margin-left: 10px;
 }
 
 /************* SECTION TITLE *****************/
