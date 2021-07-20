@@ -8,7 +8,7 @@ import Services from "./Components/Services";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 import Footer from "./Components/Footer";
-import BackToTop from "./Components/BackToTop";
+import Call from "./Components/Call";
 
 function App() {
   return (
@@ -35,7 +35,7 @@ function App() {
         }}
       />
       {/* Components */}
-      <BackToTop/>
+      <Call/>
       <Navbar />
       <Header />
       <About />

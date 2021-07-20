@@ -15,9 +15,9 @@ html {
 }
 
 /************* BACK TO TOP *****************/
-.scroll-to-top {
+.call {
   bottom: 7rem;
-  right: 0;
+  left: 0;
   width: 45px;
   height: 45px;
   z-index: 200;
@@ -31,7 +31,7 @@ html {
   border-radius: 50%;
 }
 
-.scroll-to-top .icon2 {
+.call .icon2 {
   margin-top: 10px;
   color: wheat !important;
   animation: scrollTop 0.5s alternate ease infinite;
