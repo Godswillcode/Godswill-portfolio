@@ -20,7 +20,7 @@ const BackToTop = () => {
   }
   return (
     <div
-      className="scroll-to-top mr-5 text-xl fixed rounded-full flex justify-center bg-primary text-white cursor-pointer"
+      className="scroll-to-top mr-5 text-xl fixed rounded-full flex justify-center text-white cursor-pointer"
       onClick={scroll}
     >
       <svg
