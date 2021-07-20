@@ -23,6 +23,7 @@ html {
   z-index: 200;
   background: #ef4035;
   color: #fff;
+  cursor: pointer;
 }
 
 .scroll-to-top .icon2 {
