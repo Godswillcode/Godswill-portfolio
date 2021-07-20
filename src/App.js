@@ -43,7 +43,7 @@ function App() {
       <Projects />
       <Skills />
       <Footer />
-      {/* <div style={{marginBottom: 50}}></div> */}
+     
     </>
   );
 }
