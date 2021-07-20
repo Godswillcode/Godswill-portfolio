@@ -76,7 +76,7 @@ const About = () => {
                   <span>
                     {" "}
                     <a
-                      href="https://www.linkedin.com/in/onyekachi-godswill-b78a631bb/"
+                      href="https://www.linkedin.com/in/onyekachi-godswill/"
                       rel="noopener noreferrer"
                       target="blank"
                       className="text-white"
