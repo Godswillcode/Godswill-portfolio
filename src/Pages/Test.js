@@ -1,3 +1,4 @@
+import "./test.css"
 const Test = () => {
     return (
         <div>
