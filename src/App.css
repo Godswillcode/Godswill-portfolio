@@ -210,6 +210,7 @@ ul li .nav-link.active::after {
   height: 450px;
   width: 100%;
   border-radius: 50px;
+  object-fit: cover;
 }
 
 .about-contact {
