@@ -13,6 +13,7 @@ import Call from "./Components/Call";
 import AllProject from "./Pages/AllProject";
 import StartTop from "./Components/StartTop";
 import Nav2 from "./Components/Nav2";
+import NotFoundPage from "./Pages/NotFoundPage";
 
 function App() {
   return (
@@ -53,6 +54,8 @@ function App() {
           <Nav2/>
           <AllProject />
         </Route>
+
+        <Route> <NotFoundPage/> </Route>
       </Switch>
 
       <Footer />
