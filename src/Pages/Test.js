@@ -1,4 +1,18 @@
 import "./test.css"
+
+const info = [
+    {
+        kind: "Apple",
+        phone: "Iphone x"
+    },
+    {
+        kind: "Apple",
+        phone: "Iphone x"
+    },
+
+]
+
+
 const Test = () => {
     return (
         <div className="container-fluid">
