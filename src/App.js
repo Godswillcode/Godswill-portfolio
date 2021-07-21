@@ -15,7 +15,13 @@ import AllProject from "./Components/AllProject";
 function App() {
   return (
     <>
-      <Particles
+     
+      {/* Components */}
+      <Call />
+      <Navbar />
+      <Switch>
+        <Route exact path="/">
+        <Particles
         className="particle"
         params={{
           particles: {
@@ -35,15 +41,8 @@ function App() {
             },
           },
         }}
-      />
-      {/* Components */}
-      <Call />
-      <Navbar />
-      <br />
-      <br />
-
-      <Switch>
-        <Route exact path="/">
+      /> 
+           
           <Header />
           <About />
           <Services />
@@ -51,10 +50,10 @@ function App() {
           <Skills />
         </Route>
         <Route path="/allProjects">
-          <AllProject/>
+          <AllProject />
         </Route>
       </Switch>
-     
+
       <Footer />
     </>
   );
