@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [click, setClick] = useState(true);
@@ -12,14 +13,13 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
-          <Link
+          <NavLink
             className="navbar-brand text-white"
-            to="header"
-            spy={true}
-            offset={-70}
+            to="/"
+           
           >
             Godswill
-          </Link>
+          </NavLink>
           <button className="navbar-toggler" onClick={closeMenu}>
             {click ? (
               <i className="fas fa-bars text-white"></i>
