@@ -9,3 +9,8 @@
     color: gray;
     font-style: italic;
 }
+
+.single-box {
+    width: 100%;
+    margin-bottom: 20px;
+}
