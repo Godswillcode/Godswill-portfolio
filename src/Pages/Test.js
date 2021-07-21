@@ -4,8 +4,10 @@ const Test = () => {
            <div className="btns">
                <button value="All">All</button>
                <button value="Iphone">Iphone</button>
-               <button value="All">All</button>
+               <button value="Samsung">Samsung</button>
            </div>
+
+           
         </div>
     )
 }
