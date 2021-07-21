@@ -13,11 +13,7 @@ const Nav2 = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
-          <NavLink
-            className="navbar-brand text-white"
-            to="/"
-           
-          >
+          <NavLink className="navbar-brand text-white" to="/">
             Godswill
           </NavLink>
           <button className="navbar-toggler" onClick={closeMenu}>
@@ -33,12 +29,7 @@ const Nav2 = () => {
           >
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="/#header"
-                 
-                  onClick={closeMenu}
-                >
+                <a className="nav-link" href="/#header" onClick={closeMenu}>
                   Home <span className="sr-only">(current)</span>
                 </a>
               </li>
@@ -58,14 +49,14 @@ const Nav2 = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="skill" spy={true} offset={-80} onClick={closeMenu}>
+                <a className="nav-link" href="/#skill" onClick={closeMenu}>
                   Skills
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-              <Link className="nav-link" to="about" spy={true} offset={-80} onClick={closeMenu}>
+                <a className="nav-link" href="/#about" onClick={closeMenu}>
                   Contact
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
