@@ -43,16 +43,31 @@ const Test = () => {
 
         else if (data === "Apple") {
             const filtered = info.filter(item => item.kind === "Apple")
+
+            setPhones(filtered)
+        }
+
+        else if (data === "Samsung") {
+            const filtered = info.filter(item => item.kind === "Samsung")
+
+            setPhones(filtered)
+        }
+
+        
+        else if (data === "lg") {
+            const filtered = info.filter(item => item.kind === "lg")
+
+            setPhones(filtered)
         }
     }
 
     return (
         <div className="container">
            <div className="btns">
-               <button value="All">All</button>
-               <button value="Iphone">Iphone</button>
-               <button value="Samsung">Samsung</button>
-               <button value="lg">LG</button>
+               <button value="All" onClick={handleBtns}>All</button>
+               <button value="Apple" onClick={handleBtns}>Iphone</button>
+               <button value="Samsung" onClick={handleBtns}>Samsung</button>
+               <button value="lg" onClick={handleBtns}>LG</button>
            </div>
 
              <div className="box">
