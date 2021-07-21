@@ -13,4 +13,6 @@
 .single-box {
     width: 100%;
     margin-bottom: 20px;
+    border: 1px solid gray;
+    padding: 10px;
 }

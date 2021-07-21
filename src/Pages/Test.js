@@ -1,7 +1,7 @@
 import "./test.css"
 const Test = () => {
     return (
-        <div>
+        <div className="container">
            <div className="btns">
                <button value="All">All</button>
                <button value="Iphone">Iphone</button>
