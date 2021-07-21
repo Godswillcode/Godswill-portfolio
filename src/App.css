@@ -447,3 +447,19 @@ ul li .nav-link.active::after {
   width: 100%;
   padding: 30px 0;
 }
+
+
+/************* WORK IN PROGRESS *****************/
+.work-pro {
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media(max-width: 600px)  {
+    .work-pro h1 {
+      font-size: 2rem;
+    }
+}
