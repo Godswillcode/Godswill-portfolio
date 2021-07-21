@@ -4,3 +4,8 @@
     flex-wrap: nowrap;
 }
 
+.box h4 b {
+    letter-spacing: 0.1rem;
+    color: gray;
+    font-style: italic;
+}
