@@ -16,3 +16,8 @@
     border: 1px solid gray;
     padding: 10px;
 }
+
+.btns {
+    text-align: center;
+    margin: 0 auto;
+}
