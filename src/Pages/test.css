@@ -1,0 +1,6 @@
+.box {
+    display: flex;
+    padding: 20px;
+    flex-wrap: nowrap;
+}
+
