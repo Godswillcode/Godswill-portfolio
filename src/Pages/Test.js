@@ -7,7 +7,10 @@ const Test = () => {
                <button value="Samsung">Samsung</button>
            </div>
 
-           
+           <div className="single-box">
+               <h4>Kind: <b>Apple</b></h4>
+               <h4>phone: <b>Iphone x</b></h4>
+           </div>
         </div>
     )
 }
