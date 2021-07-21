@@ -27,6 +27,11 @@ const info = [
         kind: "lg",
         phone: "lg spark"
     },
+
+    {
+        kind: "lg",
+        phone: "lg spark pro"
+    },
 ]
 
 
