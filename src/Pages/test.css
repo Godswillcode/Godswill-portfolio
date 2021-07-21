@@ -20,4 +20,10 @@
 .btns {
     text-align: center;
     margin: 0 auto;
+    margin-top: 20px;
+}
+
+.btns button {
+    width: 100px;
+    margin: 5px;
 }
