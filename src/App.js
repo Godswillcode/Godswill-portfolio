@@ -1,6 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {Switch, Route} from "react-router-dom"
+import { Switch, Route } from "react-router-dom";
 import Particles from "react-particles-js";
 import Navbar from "./Components/Navbar";
 import Header from "./Components/Header";
@@ -37,17 +37,25 @@ function App() {
         }}
       />
       {/* Components */}
-      <Call/>
+      <Call />
       <Navbar />
-      <Header />
-      <About />
-      <Services />
-      <Projects />
-      <Skills />
+      <br />
+      <br />
+
+      <Switch>
+        <Route exact path="/">
+          <Header />
+          <About />
+          <Services />
+          <Projects />
+          <Skills />
+        </Route>
+        <Route path="/allProjects">
+          <AllProject/>
+        </Route>
+      </Switch>
+     
       <Footer />
-        <Switch>
-        <Route path="/allProjects" component={AllProject}/>
-        </Switch>
     </>
   );
 }
