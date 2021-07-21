@@ -16,35 +16,32 @@ import StartTop from "./Components/StartTop";
 function App() {
   return (
     <>
-     
-      {/* Components */}
       <Call />
-      <Navbar />
-      <StartTop/>
+      <StartTop />
       <Switch>
         <Route exact path="/">
-        <Particles
-        className="particle"
-        params={{
-          particles: {
-            number: {
-              value: 30,
-              density: {
-                enable: true,
-                value_area: 900,
+          <Particles
+            className="particle"
+            params={{
+              particles: {
+                number: {
+                  value: 30,
+                  density: {
+                    enable: true,
+                    value_area: 900,
+                  },
+                },
+                shape: {
+                  type: "star",
+                  stroke: {
+                    width: 6,
+                    color: "#ef4035",
+                  },
+                },
               },
-            },
-            shape: {
-              type: "star",
-              stroke: {
-                width: 6,
-                color: "#ef4035",
-              },
-            },
-          },
-        }}
-      /> 
-           
+            }}
+          />
+          <Navbar />
           <Header />
           <About />
           <Services />
