@@ -34,7 +34,17 @@ const Test = () => {
 
    const [phones, setPhones] = useState(info)
 
-    
+    const handleBtns = (e) => {
+        let data = e.target.value;
+
+        if (data === "All") {
+             setPhones(info)
+        }
+
+        else if (data === "Apple") {
+            const filtered = info.filter(item => item.kind === "Apple")
+        }
+    }
 
     return (
         <div className="container">
