@@ -32,12 +32,12 @@ const info = [
 
 const Test = () => {
 
-   const [phone, setPhone] = useState(info)
+   const [phones, setPhones] = useState(info)
 
     
 
     return (
-        <div className="container-fluid">
+        <div className="container">
            <div className="btns">
                <button value="All">All</button>
                <button value="Iphone">Iphone</button>
@@ -47,11 +47,11 @@ const Test = () => {
 
              <div className="box">
                 {
-                    phone.map((item)  => {
+                    phones.map((item)  => {
                         return(
-                            <div className="single-box">
-                            <h4>Kind: <b>Apple</b></h4>
-                            <h4>phone: <b>Iphone x</b></h4>
+                            <div className="single-box" key={item.phone}>
+                            <h4>Kind: <b>{item.kind}</b></h4>
+                            <h4>phone: <b>{item.phone}</b></h4>
                         </div>
                         )
                     })

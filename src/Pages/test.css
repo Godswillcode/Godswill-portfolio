@@ -30,6 +30,7 @@
 @media screen and (min-width: 664px){
     .box {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
     }
 
