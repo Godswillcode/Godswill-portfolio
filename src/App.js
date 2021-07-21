@@ -56,11 +56,12 @@ function App() {
           <AllProject />
         </Route>
 
-        <Route path="/test"><Test/></Route>
+        <Route path="/test">
+          <Test />
+        </Route>
 
         <Route>
-        
-        <NotFoundPage />
+          <NotFoundPage />
         </Route>
       </Switch>
 
