@@ -10,7 +10,7 @@ import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 import Footer from "./Components/Footer";
 import Call from "./Components/Call";
-import AllProject from "./Components/AllProject";
+import AllProject from "./Pages/AllProject";
 import StartTop from "./Components/StartTop";
 import Nav2 from "./Components/Nav2";
 
