@@ -7,9 +7,25 @@ const info = [
     },
     {
         kind: "Apple",
-        phone: "Iphone x"
+        phone: "Iphone 12 pro"
     },
 
+    {
+        kind: "Samsung",
+        phone: "Samsung A12"
+    },
+    {
+        kind: "Samsung",
+        phone: "Samsung s9"
+    },
+    {
+        kind: "Apple",
+        phone: "Iphone x"
+    },
+    {
+        kind: "Apple",
+        phone: "Iphone x"
+    },
 ]
 
 
