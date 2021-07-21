@@ -51,11 +51,14 @@ function App() {
           <Skills />
         </Route>
         <Route path="/allProjects">
-          <Nav2/>
+          <Nav2 />
           <AllProject />
         </Route>
 
-        <Route> <NotFoundPage/> </Route>
+        <Route>
+          {" "}
+          <NotFoundPage />{" "}
+        </Route>
       </Switch>
 
       <Footer />
