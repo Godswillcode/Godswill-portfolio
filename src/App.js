@@ -12,6 +12,7 @@ import Footer from "./Components/Footer";
 import Call from "./Components/Call";
 import AllProject from "./Components/AllProject";
 import StartTop from "./Components/StartTop";
+import Nav2 from "./Components/Nav2";
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
           <Skills />
         </Route>
         <Route path="/allProjects">
+          <Nav2/>
           <AllProject />
         </Route>
       </Switch>

@@ -1,7 +1,7 @@
 function Nav2() {
     return (
         <div>
-            
+            hello
         </div>
     )
 }
