@@ -1,3 +1,4 @@
+import { useState } from "react"
 import "./test.css"
 
 const info = [
@@ -19,30 +20,42 @@ const info = [
         phone: "Samsung s9"
     },
     {
-        kind: "Apple",
-        phone: "Iphone x"
+        kind: "lg",
+        phone: "lg s10"
     },
     {
-        kind: "Apple",
-        phone: "Iphone x"
+        kind: "lg",
+        phone: "lg spark"
     },
 ]
 
 
 const Test = () => {
+
+   const [phone, setPhone] = useState(info)
+
+    
+
     return (
         <div className="container-fluid">
            <div className="btns">
                <button value="All">All</button>
                <button value="Iphone">Iphone</button>
                <button value="Samsung">Samsung</button>
+               <button value="lg">LG</button>
            </div>
 
              <div className="box">
-             <div className="single-box">
-               <h4>Kind: <b>Apple</b></h4>
-               <h4>phone: <b>Iphone x</b></h4>
-           </div>
+                {
+                    phone.map((item)  => {
+                        return(
+                            <div className="single-box">
+                            <h4>Kind: <b>Apple</b></h4>
+                            <h4>phone: <b>Iphone x</b></h4>
+                        </div>
+                        )
+                    })
+                }
              </div>
         </div>
     )
