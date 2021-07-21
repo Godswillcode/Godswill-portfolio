@@ -118,7 +118,7 @@ ul li .nav-link.active::after {
 
 /*************  HEADER *****************/
 .header-wrapper {
-  background: url(asset/images/hero.jpg) no-repeat;
+  background: url(Images/hero.jpg) no-repeat;
   background-position: center center;
   background-size: cover;
   height: 90vh;
