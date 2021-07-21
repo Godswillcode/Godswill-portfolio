@@ -27,3 +27,10 @@
     width: 100px;
     margin: 5px;
 }
+
+@media screen and (min-width: 664px){
+    .box {
+        display: flex;
+        justify-content: space-between;
+    }
+}
