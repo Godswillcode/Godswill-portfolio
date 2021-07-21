@@ -1,5 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import {Switch, Route} from "react-router-dom"
 import Particles from "react-particles-js";
 import Navbar from "./Components/Navbar";
 import Header from "./Components/Header";
@@ -9,6 +10,7 @@ import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 import Footer from "./Components/Footer";
 import Call from "./Components/Call";
+import AllProject from "./Components/AllProject";
 
 function App() {
   return (
@@ -43,7 +45,9 @@ function App() {
       <Projects />
       <Skills />
       <Footer />
-     
+        <Switch>
+        <Route path="/allProjects" component={AllProject}/>
+        </Switch>
     </>
   );
 }

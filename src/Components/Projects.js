@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { projects } from "./projectData";
 
 const Projects = () => {
@@ -14,7 +15,7 @@ const Projects = () => {
           </div>
         </div>
                      <div className="text-right p-link mb-2">
-                       <a href="#!"><span className="pr-1">View all</span> <svg className="mb-1" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"><path fill="#fff" d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"/></svg></a>
+                       <Link to="/allProjects"><span className="pr-1">View all</span> <svg className="mb-1" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"><path fill="#fff" d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"/></svg></Link>
                      </div>
 
              <div className="d-flex justify-content-center flex-wrap">
