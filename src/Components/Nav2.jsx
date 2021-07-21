@@ -53,9 +53,9 @@ const Nav2 = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="project" spy={true} offset={-80} onClick={closeMenu}>
+                <a className="nav-link" href="/#project" onClick={closeMenu}>
                   Projects
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="skill" spy={true} offset={-80} onClick={closeMenu}>
