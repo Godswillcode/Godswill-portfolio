@@ -116,23 +116,6 @@ ul li .nav-link.active::after {
 }
 
 
-/************* SINGLE PROJECT NAVBAR *****************/
-.nav2 {
-  background: #1f2235;
-}
-
-.nav2 .nav2-link {
-  font-size: 1.1em;
-  font-weight: 500;
-  color: #fff;
-  letter-spacing: 0.0375rem;
-}
-
-.nav2 .nav2-link:hover {
-   color: #ff4a57;
-}
-
-
 /*************  HEADER *****************/
 .header-wrapper {
   background: url(asset/images/hero.jpg) no-repeat;
