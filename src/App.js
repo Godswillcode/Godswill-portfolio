@@ -11,6 +11,7 @@ import Skills from "./Components/Skills";
 import Footer from "./Components/Footer";
 import Call from "./Components/Call";
 import AllProject from "./Components/AllProject";
+import StartTop from "./Components/StartTop";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       {/* Components */}
       <Call />
       <Navbar />
+      <StartTop/>
       <Switch>
         <Route exact path="/">
         <Particles
