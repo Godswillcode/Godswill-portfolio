@@ -5,6 +5,25 @@ import { projects } from "../Components/projectData";
 const AllProject = () => {
  const [allProject, setAllProject] = useState(projects)
 
+ const handleBtns = (e) => {
+    let data = e.target.value;
+
+    if (data === "All") {
+      setPhones(info);
+    } else if (data === "Apple") {
+      const filtered = info.filter((item) => item.kind === "Apple");
+
+      setPhones(filtered);
+    } else if (data === "Samsung") {
+      const filtered = info.filter((item) => item.kind === "Samsung");
+
+      setPhones(filtered);
+    } else if (data === "lg") {
+      const filtered = info.filter((item) => item.kind === "lg");
+
+      setPhones(filtered);
+    }
+  };
 
 
   return (
