@@ -60,7 +60,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="skill" spy={true} offset={-80} onClick={closeMenu}>
+                <Link className="nav-link" to="skill" spy={true} onClick={closeMenu}>
                   Skills
                 </Link>
               </li>
