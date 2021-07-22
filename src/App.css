@@ -393,6 +393,13 @@ ul li .nav-link.active::after {
   background: #ef4035;
 }
 
+/* All project */
+.allBtn {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+} 
+
 @media (max-width: 768px) {
   .p-link a {
     margin-right: 5rem;
