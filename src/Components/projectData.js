@@ -42,6 +42,5 @@ export const projects = [
     siteLink: "https://aimartrealtors.com/",
     technology: "React, Redux and Tailwind",
   },
-
-  
+ 
 ];

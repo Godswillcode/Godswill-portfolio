@@ -27,7 +27,7 @@ const AllProject = () => {
 
 
   return (
-    <div className="project" style={{ paddingTop: "5rem" }}>
+    <div className="project" style={{ paddingTop: "5rem", paddingBottom: "4rem"}}>
        <div className="container">
        <div className="allBtn">
         <button value="All" onClick={handleBtn}>All</button>
