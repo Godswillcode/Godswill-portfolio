@@ -394,11 +394,18 @@ ul li .nav-link.active::after {
 }
 
 /* All project */
-.allBtn {
+.project .allBtn {
   text-align: center;
   margin: 0 auto;
-  margin-top: 20px;
+  margin: 30px 0;
 } 
+
+
+.project .allBtn button {
+  width: 100px;
+  margin: 8px;
+}
+
 
 @media (max-width: 768px) {
   .p-link a {
