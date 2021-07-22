@@ -1,18 +1,25 @@
+import { useState } from "react";
+
+
 import { projects } from "../Components/projectData";
 const AllProject = () => {
+ const [allProject, setAllProject] = useState(projects)
+
+
+
   return (
     <div className="project" style={{ paddingTop: "5rem" }}>
        <div className="container">
        <div className="btns">
         <button value="All">All</button>
-        <button value="Apple">Iphone</button>
-        <button value="Samsung">Samsung</button>
+        <button value="HTML">HTML</button>
+        <button value="React">React</button>
         <button value="lg">LG</button>
       </div>
 
 
       <div className="d-flex justify-content-center flex-wrap">
-          {projects.map((project) => {
+          {allProject.map((project) => {
             const { title, image, desc, technology, siteLink, id } = project;
             return (
               <div className="project-box" key={id} style={{ margin: 13 }}>
