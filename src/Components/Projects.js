@@ -30,7 +30,7 @@ const Projects = () => {
       </div>
     );
   });
-  const selectedData = allData.slice(0, 4);
+  const selectedData = allData.slice(4, 8);
 
   return (
     <div className="project" id="project">
