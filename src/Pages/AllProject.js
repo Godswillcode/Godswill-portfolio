@@ -18,8 +18,8 @@ const AllProject = () => {
       const filtered = projects.filter((item) => item.kind === "React");
 
       setAllProject(filtered);
-    } else if (data === "lg") {
-      const filtered = projects.filter((item) => item.kind === "lg");
+    } else if (data === "Mern") {
+      const filtered = projects.filter((item) => item.kind === "Mern");
 
       setAllProject(filtered);
     }
@@ -33,7 +33,7 @@ const AllProject = () => {
         <button value="All" onClick={handleBtn}>All</button>
         <button value="HTML" onClick={handleBtn}>HTML</button>
         <button value="React" onClick={handleBtn}>React</button>
-        <button value="lg" onClick={handleBtn}>LG</button>
+        <button value="Mern" onClick={handleBtn}>Mern Stack</button>
       </div>
 
 

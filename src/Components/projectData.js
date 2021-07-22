@@ -43,17 +43,33 @@ export const projects = [
     technology: "React, Redux and Tailwind",
   },
 
-  
   {
     id: 5,
     kind: "React",
     title: "Online books",
     image: "/images/project/online.jpg",
-    desc:
-      "An online books App where you can read book online.",
+    desc: "An online books App where you can read book online.",
     siteLink: "https://online-books.netlify.app/",
     technology: "React, Axios and Bootstrap",
   },
 
+  {
+    id: 6,
+    kind: "Mern",
+    title: "Aza properties",
+    image: "/images/project/aza.png",
+    desc: "A real estate App where admin will be able to perform crud operation.",
+    siteLink: "https://www.azaproperty.com/",
+    technology: "Mongo DB, Express, React and Nodejs",
+  },
 
+  {
+    id: 7,
+    kind: "Mern",
+    title: "Sqeakfix technology",
+    image: "/images/project/squeakfix.png",
+    desc: "A website for online where users can book for their PC repair online",
+    siteLink: "https://squeakfix.com.ng/",
+    technology: "Express, React, Nodejs and Cloudinary",
+  },
 ];
