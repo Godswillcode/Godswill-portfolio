@@ -1,6 +1,8 @@
 import { useState } from "react";
-
 import { projects } from "../Components/projectData";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 const AllProject = () => {
   const [allProject, setAllProject] = useState(projects);
 
