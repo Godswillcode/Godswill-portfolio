@@ -5,17 +5,17 @@ import { projects } from "../Components/projectData";
 const AllProject = () => {
  const [allProject, setAllProject] = useState(projects)
 
- const handleBtns = (e) => {
+ const handleBtn = (e) => {
     let data = e.target.value;
 
     if (data === "All") {
       setAllProject(projects);
-    } else if (data === "Apple") {
-      const filtered = projects.filter((item) => item.kind === "Apple");
+    } else if (data === "HTML") {
+      const filtered = projects.filter((item) => item.kind === "HTML");
 
       setAllProject(filtered);
-    } else if (data === "Samsung") {
-      const filtered = projects.filter((item) => item.kind === "Samsung");
+    } else if (data === "React") {
+      const filtered = projects.filter((item) => item.kind === "React");
 
       setAllProject(filtered);
     } else if (data === "lg") {
@@ -30,10 +30,10 @@ const AllProject = () => {
     <div className="project" style={{ paddingTop: "5rem" }}>
        <div className="container">
        <div className="btns">
-        <button value="All">All</button>
-        <button value="HTML">HTML</button>
-        <button value="React">React</button>
-        <button value="lg">LG</button>
+        <button value="All" onClick={handleBtn}>All</button>
+        <button value="HTML" onClick={handleBtn}>HTML</button>
+        <button value="React" onClick={handleBtn}>React</button>
+        <button value="lg" onClick={handleBtn}>LG</button>
       </div>
 
 
