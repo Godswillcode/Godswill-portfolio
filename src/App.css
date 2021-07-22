@@ -404,6 +404,9 @@ ul li .nav-link.active::after {
 .project .allBtn button {
   width: 100px;
   margin: 8px;
+  background: #ef4035;
+  color: #fff;
+  border: none;
 }
 
 
