@@ -1,8 +1,8 @@
 import { projects } from "../Components/projectData";
 const AllProject = () => {
   return (
-    <div className="project" style={{ marginTop: "7rem" }}>
-       <div>
+    <div className="project" style={{ paddingTop: "5rem" }}>
+       <div className="container">
        <div className="btns">
         <button value="All">All</button>
         <button value="Apple">Iphone</button>
