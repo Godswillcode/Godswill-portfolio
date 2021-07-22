@@ -18,7 +18,7 @@ export const projects = [
     desc:
       "A real estate progressive web App where you can view all there properties and also create account with them and login.",
     siteLink: "https://luxury-real-estate.netlify.app/",
-    technology: "React, react bootstrap, react router and yup",
+    technology: "React, react bootstrap, axios and yup",
   },
 
   {
@@ -65,7 +65,7 @@ export const projects = [
 
   {
     id: 7,
-    kind: "Mern",
+    kind: "React",
     title: "Sqeakfix technology",
     image: "/images/project/squeakfix.png",
     desc: "A website for online where users can book for their PC repair online",

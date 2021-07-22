@@ -415,6 +415,10 @@ ul li .nav-link.active::after {
   outline: none;
 }
 
+.project .allBtn button:hover {
+  background: #ef4035;
+}
+
 
 @media (max-width: 768px) {
   .p-link a {
