@@ -14,7 +14,6 @@ import AllProject from "./Pages/AllProject";
 import StartTop from "./Components/StartTop";
 import Nav2 from "./Components/Nav2";
 import NotFoundPage from "./Pages/NotFoundPage";
-import Test from "./Pages/Test";
 
 function App() {
   return (
@@ -54,10 +53,6 @@ function App() {
         <Route path="/allProjects">
           <Nav2 />
           <AllProject />
-        </Route>
-
-        <Route path="/test">
-          <Test />
         </Route>
 
         <Route>
