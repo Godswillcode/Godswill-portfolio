@@ -3,9 +3,8 @@ import { Link } from "react-router-dom";
 import { projects } from "./projectData";
 
 const Projects = () => {
-  // Main return
-
-  const team1 = projects.map((project) => {
+ 
+  const allData = projects.map((project) => {
     const { title, image, desc, technology, siteLink, id } = project;
     return (
       <div className="project-box" key={id} style={{ margin: 13 }}>
@@ -32,7 +31,7 @@ const Projects = () => {
       </div>
     );
   });
-  const selectedTeam = team1.slice(0, 4);
+  const selectedData = allData.slice(0, 4);
 
   return (
     <div className="project" id="project">
@@ -62,7 +61,7 @@ const Projects = () => {
         </div>
 
         <div className="d-flex justify-content-center flex-wrap">
-          {selectedTeam}
+          {selectedData}
         </div>
       </div>
     </div>
