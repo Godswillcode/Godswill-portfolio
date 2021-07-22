@@ -9,19 +9,19 @@ const AllProject = () => {
     let data = e.target.value;
 
     if (data === "All") {
-      setPhones(info);
+      setAllProject(projects);
     } else if (data === "Apple") {
-      const filtered = info.filter((item) => item.kind === "Apple");
+      const filtered = projects.filter((item) => item.kind === "Apple");
 
-      setPhones(filtered);
+      setAllProject(filtered);
     } else if (data === "Samsung") {
-      const filtered = info.filter((item) => item.kind === "Samsung");
+      const filtered = projects.filter((item) => item.kind === "Samsung");
 
-      setPhones(filtered);
+      setAllProject(filtered);
     } else if (data === "lg") {
-      const filtered = info.filter((item) => item.kind === "lg");
+      const filtered = projects.filter((item) => item.kind === "lg");
 
-      setPhones(filtered);
+      setAllProject(filtered);
     }
   };
 
