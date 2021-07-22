@@ -14,6 +14,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background: #ddd !important;
+}
+
 /************* BACK TO TOP *****************/
 .call {
   bottom: 2rem;
@@ -457,7 +461,6 @@ ul li .nav-link.active::after {
   justify-content: center;
   height: 100vh;
   padding: 0px 30px;
-  background: #ddd;
 }
 
 .wrap-404 .wrapper {

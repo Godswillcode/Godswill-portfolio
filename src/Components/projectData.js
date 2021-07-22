@@ -1,6 +1,7 @@
 export const projects = [
   {
     id: 1,
+    kind: "HTML",
     title: "Casa Hotel",
     image: "/images/project/casa.jpg",
     desc:
@@ -11,6 +12,7 @@ export const projects = [
 
   {
     id: 2,
+    kind: "React",
     title: "Luxury Real Estate",
     image: "/images/project/luxury.jpg",
     desc:
@@ -21,6 +23,7 @@ export const projects = [
 
   {
     id: 3,
+    kind: "React",
     title: "Shopping Cart",
     image: "/images/project/getit.jpg",
     desc:
@@ -31,6 +34,7 @@ export const projects = [
 
   {
     id: 4,
+    kind: "React",
     title: "Airmart Realtors",
     image: "/images/project/airmat.jpg",
     desc:
