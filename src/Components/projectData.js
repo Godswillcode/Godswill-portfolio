@@ -29,7 +29,7 @@ export const projects = [
     desc:
       "An e-commerce platform where you will see products, add to cart, checkout and make payment with payStack payment gateway.",
     siteLink: "https://get-it-now.netlify.app/",
-  technology: "React, Axios and payStack",
+    technology: "React, Axios and payStack",
   },
 
   {
@@ -42,5 +42,18 @@ export const projects = [
     siteLink: "https://aimartrealtors.com/",
     technology: "React, Redux and Tailwind",
   },
- 
+
+  
+  {
+    id: 5,
+    kind: "React",
+    title: "Online books",
+    image: "/images/project/online.jpg",
+    desc:
+      "An online books App where you can read book online.",
+    siteLink: "https://online-books.netlify.app/",
+    technology: "React, Axios and Bootstrap",
+  },
+
+
 ];
