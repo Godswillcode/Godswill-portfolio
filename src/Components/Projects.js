@@ -32,8 +32,7 @@ const Projects = () => {
       </div>
     );
   });
-  const selectedTeam = team1.slice(1, 5);
-
+  const selectedTeam = team1.slice(0, 4);
 
   return (
     <div className="project" id="project">
@@ -63,7 +62,7 @@ const Projects = () => {
         </div>
 
         <div className="d-flex justify-content-center flex-wrap">
-           {}
+          {selectedTeam}
         </div>
       </div>
     </div>
