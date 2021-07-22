@@ -34,13 +34,13 @@ export const projects = [
 
   {
     id: 4,
-    kind: "React",
+    kind: "Mern",
     title: "Airmart Realtors",
     image: "/images/project/airmat.jpg",
     desc:
-      "A real estate web App where you can view all there properties and also create account with them and login.",
+      "A real estate web App where users can create account and have their dashboard.",
     siteLink: "https://aimartrealtors.com/",
-    technology: "React, Redux and Tailwind",
+    technology: "Mongo DB, Express, React, Nodejs, Tailwind css and Redux",
   },
 
   {
@@ -60,7 +60,7 @@ export const projects = [
     image: "/images/project/aza.png",
     desc: "A real estate App where admin will be able to perform crud operation.",
     siteLink: "https://www.azaproperty.com/",
-    technology: "Mongo DB, Express, React and Nodejs",
+    technology: "Mongo DB, Express, React, Nodejs and Tailwind css",
   },
 
   {
@@ -70,6 +70,6 @@ export const projects = [
     image: "/images/project/squeakfix.png",
     desc: "A website for online where users can book for their PC repair online",
     siteLink: "https://squeakfix.com.ng/",
-    technology: "Express, React, Nodejs and Cloudinary",
+    technology: "Express, React, Nodejs, Cloudinary and Tailind css",
   },
 ];
