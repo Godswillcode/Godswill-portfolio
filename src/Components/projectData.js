@@ -81,8 +81,8 @@ export const projects = [
     title: "Upright life",
     image: "/images/project/up.png",
     desc:
-      "A website for online where users can book for their PC repair online",
-    siteLink: "https://squeakfix.com.ng/",
-    technology: "Express, React, Nodejs, Cloudinary and Tailwind css",
+      "Church website",
+    siteLink: "https://uprightlifeministry.org/",
+    technology: "Wordpress and paystack",
   },
 ];
