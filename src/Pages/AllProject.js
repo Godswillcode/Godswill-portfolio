@@ -1,9 +1,14 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { projects } from "../Components/projectData";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
 const AllProject = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1100 });
+  }, []);
+
+
   const [allProject, setAllProject] = useState(projects);
 
   const handleBtn = (e) => {
