@@ -476,6 +476,7 @@ ul li .nav-link.active::after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 10px;
 }
 .wrap-404 svg {
   width: 50%;
@@ -489,7 +490,6 @@ ul li .nav-link.active::after {
 }
 .wrap-404 p {
   font-size: 16px;
-  width: 35%; 
   margin: 16px auto 24px;
   text-align: center;
 }
