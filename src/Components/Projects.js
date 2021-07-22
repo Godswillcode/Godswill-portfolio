@@ -5,7 +5,7 @@ import { projects } from "./projectData";
 const Projects = () => {
   // Main return
 
-  const team1 = projects.map((data) => {
+  const team1 = projects.map((project) => {
     const { title, image, desc, technology, siteLink, id } = project;
     return (
       <div className="project-box" key={id} style={{ margin: 13 }}>
