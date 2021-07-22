@@ -72,6 +72,17 @@ export const projects = [
     desc:
       "A website for online where users can book for their PC repair online",
     siteLink: "https://squeakfix.com.ng/",
-    technology: "Express, React, Nodejs, Cloudinary and Tailind css",
+    technology: "Express, React, Nodejs, Cloudinary and Tailwind css",
+  },
+
+  {
+    id: 8,
+    kind: "HTML",
+    title: "Upright life",
+    image: "/images/project/up.png",
+    desc:
+      "A website for online where users can book for their PC repair online",
+    siteLink: "https://squeakfix.com.ng/",
+    technology: "Express, React, Nodejs, Cloudinary and Tailwind css",
   },
 ];
