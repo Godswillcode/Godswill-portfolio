@@ -408,7 +408,7 @@ ul li .nav-link.active::after {
 .skills {
   background: #1f2235;
   padding-bottom: 3rem;
-  padding-top: 10rem;
+  /* padding-top: 7rem; */
 }
 
 .progress-wrap {
