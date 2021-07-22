@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
+
 const NotFoundPage = () => {
   return (
-    <section class="g-wrap">
+    <section class="wrap-404">
       <div class="wrapper">
         <div class="landing-page">
           <div style={{textAlign :'center'}} class="icon__download">
@@ -208,7 +210,7 @@ const NotFoundPage = () => {
 
           <h1> 404 Error.</h1>
           <p> We can't find the page you're looking for.</p>
-          <button>Back to home</button>
+          <Link to="/" className="btn-404">Back to home</Link>
         </div>
       </div>
     </section>
