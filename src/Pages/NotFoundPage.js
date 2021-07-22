@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 const NotFoundPage = () => {
   return (
-    <section class="wrap-404">
-      <div class="wrapper">
-        <div class="landing-page">
-          <div style={{textAlign :'center'}} class="icon__download">
+    <section className="wrap-404">
+      <div className="wrapper">
+        <div className="landing-page">
+          <div style={{textAlign :'center'}} className="icon__download">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               id="b599d709-684a-4b18-9cac-f9c979cf5115"
@@ -14,7 +14,7 @@ const NotFoundPage = () => {
               height="782.41658"
               viewBox="0 0 977.71631 782.41658"
               src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/imagination_ok71.svg"
-              class="item__image"
+              className="item__image"
               alt="Imagination"
             >
               <title>imagination</title>
