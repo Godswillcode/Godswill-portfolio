@@ -34,7 +34,7 @@ const AllProject = () => {
   return (
     <div
       className="project"
-      style={{ paddingTop: "5rem", paddingBottom: "4rem" }}
+      style={{ paddingTop: "7rem", paddingBottom: "4rem" }}
     >
       <div className="container">
         <div className="allBtn">
@@ -56,7 +56,7 @@ const AllProject = () => {
           {allProject.map((project) => {
             const { title, image, desc, technology, siteLink, id } = project;
             return (
-              <div className="project-box" key={id} style={{ margin: 13 }}>
+              <div className="project-box" key={id} style={{ margin: 13 }} data-aos="zoom-in">
                 <div className="project-imgBx">
                   <img src={image} alt="project" className="img-fluid" />
                 </div>
