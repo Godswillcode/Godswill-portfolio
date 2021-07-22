@@ -1,11 +1,10 @@
 import { useState } from "react";
 
-
 import { projects } from "../Components/projectData";
 const AllProject = () => {
- const [allProject, setAllProject] = useState(projects)
+  const [allProject, setAllProject] = useState(projects);
 
- const handleBtn = (e) => {
+  const handleBtn = (e) => {
     let data = e.target.value;
 
     if (data === "All") {
@@ -25,19 +24,28 @@ const AllProject = () => {
     }
   };
 
-
   return (
-    <div className="project" style={{ paddingTop: "5rem", paddingBottom: "4rem"}}>
-       <div className="container">
-       <div className="allBtn">
-        <button value="All" onClick={handleBtn}>All</button>
-        <button value="HTML" onClick={handleBtn}>HTML</button>
-        <button value="React" onClick={handleBtn}>React</button>
-        <button value="Mern" onClick={handleBtn}>Mern Stack</button>
-      </div>
+    <div
+      className="project"
+      style={{ paddingTop: "5rem", paddingBottom: "4rem" }}
+    >
+      <div className="container">
+        <div className="allBtn">
+          <button value="All" onClick={handleBtn}>
+            All
+          </button>
+          <button value="HTML" onClick={handleBtn}>
+            HTML
+          </button>
+          <button value="React" onClick={handleBtn}>
+            React
+          </button>
+          <button value="Mern" onClick={handleBtn}>
+            Mern Stack
+          </button>
+        </div>
 
-
-      <div className="d-flex justify-content-center flex-wrap">
+        <div className="d-flex justify-content-center flex-wrap">
           {allProject.map((project) => {
             const { title, image, desc, technology, siteLink, id } = project;
             return (
@@ -66,7 +74,7 @@ const AllProject = () => {
             );
           })}
         </div>
-       </div>
+      </div>
     </div>
   );
 };

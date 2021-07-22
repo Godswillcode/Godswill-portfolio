@@ -29,7 +29,7 @@ export const projects = [
     desc:
       "An e-commerce platform where you will see products, add to cart, checkout and make payment with payStack payment gateway.",
     siteLink: "https://get-it-now.netlify.app/",
-    technology: "React, Axios and payStack",
+    technology: "React, Bootstrap, Axios and payStack",
   },
 
   {
@@ -58,7 +58,8 @@ export const projects = [
     kind: "Mern",
     title: "Aza properties",
     image: "/images/project/aza.png",
-    desc: "A real estate App where admin will be able to perform crud operation.",
+    desc:
+      "A real estate App where admin will be able to perform crud operation.",
     siteLink: "https://www.azaproperty.com/",
     technology: "Mongo DB, Express, React, Nodejs and Tailwind css",
   },
@@ -68,7 +69,8 @@ export const projects = [
     kind: "React",
     title: "Sqeakfix technology",
     image: "/images/project/squeakfix.png",
-    desc: "A website for online where users can book for their PC repair online",
+    desc:
+      "A website for online where users can book for their PC repair online",
     siteLink: "https://squeakfix.com.ng/",
     technology: "Express, React, Nodejs, Cloudinary and Tailind css",
   },

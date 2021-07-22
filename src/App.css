@@ -14,7 +14,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 /************* BACK TO TOP *****************/
 .call {
   bottom: 2rem;
@@ -399,8 +398,7 @@ ul li .nav-link.active::after {
   text-align: center;
   margin: 0 auto;
   margin: 30px 0;
-} 
-
+}
 
 .project .allBtn button {
   width: 100px;
@@ -418,7 +416,6 @@ ul li .nav-link.active::after {
 .project .allBtn button:hover {
   background: #ef4035;
 }
-
 
 @media (max-width: 768px) {
   .p-link a {
@@ -470,8 +467,6 @@ ul li .nav-link.active::after {
   width: 100%;
 }
 
-
-
 /************* 404 page *****************/
 .wrap-404 {
   margin: 0;
@@ -480,12 +475,12 @@ ul li .nav-link.active::after {
   justify-content: center;
   height: 100vh;
   padding: 0px 30px;
-  background: #ddd
+  background: #ddd;
 }
 
 .wrap-404 .wrapper {
   max-width: 960px;
-  width: 100%; 
+  width: 100%;
   margin: 30px auto;
   transform: scale(0.8);
 }
@@ -534,7 +529,6 @@ ul li .nav-link.active::after {
   width: 100%;
   padding: 30px 0;
 }
-
 
 /************* WORK IN PROGRESS *****************/
 .work-pro {

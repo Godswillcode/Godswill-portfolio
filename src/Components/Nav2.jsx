@@ -43,7 +43,11 @@ const Nav2 = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="/#project" onClick={closeMenu}>
+                <a
+                  className="nav-link active"
+                  href="/#project"
+                  onClick={closeMenu}
+                >
                   Projects
                 </a>
               </li>
