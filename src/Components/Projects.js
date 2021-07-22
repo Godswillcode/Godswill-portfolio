@@ -43,7 +43,7 @@ const Projects = () => {
         </div>
         <div className="text-right p-link mb-2">
           <Link to="/allProjects">
-            <span className="pr-1">View all</span>{" "}
+            <span className="pr-1">View more</span>{" "}
             <svg
               className="mb-1"
               xmlns="http://www.w3.org/2000/svg"
