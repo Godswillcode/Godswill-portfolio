@@ -55,7 +55,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="project" spy={true} offset={-80} onClick={closeMenu}>
+                <Link className="nav-link" to="project" spy={true} offset={-50} onClick={closeMenu}>
                   Projects
                 </Link>
               </li>
